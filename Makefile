@@ -6,7 +6,7 @@ CXXFLAGS = -std=c++17 -Wall -O2 -Wno-array-bounds -Wno-stringop-overflow
 TARGET = cbi
 
 # Source files
-SRCS = M11415069.cpp Parser.cpp Utils.cpp Overlap.cpp DME.cpp Output.cpp Globals.cpp
+SRCS = main.cpp Parser.cpp Utils.cpp Overlap.cpp DME.cpp Output.cpp Globals.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
